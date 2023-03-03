@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toy Tanks</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+    <div>
+        <h1 style ='margin: 0px; padding: 70px 0px 70px 5px; color: white; font-family: Orbitron; background-color:black'>
+            Toy tanks
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">Toy Tanks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#history">Our history</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tank Selector
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Tank1">T01 Destroyer</a></li>
+                <li><a class="dropdown-item" href="#Tank3">C23 Laserquest</a></li>
+                <li><a class="dropdown-item" href="Tank2">R2T3 Long-Ranger</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#config">Configurator</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1">Coming soon</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid background" id="history">
+            <h1>Our history</h1>
+            <p>Since 1924 Toy Tanks been delivering the very best in tank warfare.</p>
+            <p>Our tank products and services operate across a wide variety of countries. Our business is underpinned by a deep understanding of technology, engineering and specialist tank warfare. Our first tank, the P121, first went into service in 1939 and since then we have continually innovated and improved on tank design and functionality to deliver on our customers needs.</p>
+            <P>Information on our tanks can be found below along with the tank configurator to calculate the cost of your required tank.</p>
+            <br>
+            <p>Camouflage can be added to all of our tanks at a cost of £200,000</p>
+    </div>
+    <div class="remain"><br></div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 remain">
+        <div class="col" id="Tank1">
+            <div class="card" style="height:100%">
+            <img src="https://jrs1102.github.io/Module1images/Tank%201.jpg" class="card-img-top" alt="Image of T01 Destroyer">
+            <div class="card-body">
+                <h5 class="card-title">T01 Destroyer</h5>
+                <p class="card-text">The T01 Destroyer can operate in a wide variety of environments. It features the latest P122 cannon with an automated fire and explosion compression system. It has a top speed of 75mph and a single machine gun. Built with versatility in mind it's rugged track design gives it both speed and mobility over any terrain it may encounter.</p>
+                <ul>
+                    <li>Price: £4.5m</li>
+                    <li>Top speed: 75mph</li>
+                    <li>Range: 330 miles</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+        <div class="col"  id="Tank2">
+            <div class="card" style="height:100%">
+            <img src="https://jrs1102.github.io/Module1images/Tank%203.jpg" class="card-img-top" alt="image of R2T3 Long-Ranger">
+            <div class="card-body">
+                <h5 class="card-title">R2T3 Ranger</h5>
+                <p class="card-text">The R2T3 Ranger is one the most powerful tanks in production today. Featuring a smooth bore P90 cannon with a range of over 9000 meters, twin machine gun mounted turret and state of the art radar technology, the R2T3 is the most complete weapon on the battlefield.</p>
+                <ul>
+                    <li>Price: £5.4m</li>
+                    <li>Top speed: 65mph</li>
+                    <li>Range: 350 miles</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col"  id="Tank3">
+            <div class="card" style="height:100%">
+            <img src="https://jrs1102.github.io/Module1images/Laser.jpg" class="card-img-top" alt="Image of C23">
+            <div class="card-body">
+                <h5 class="card-title">C23 Laserquest</h5>
+                <p class="card-text">The Laserquest is the tank for the future containing the very latest technology and state of the art materials. It's stealth mirror technology enables it to evade enemy radar and infrared detection systems with an estimated top speed of around 60mph. The armament includes as 125mm laser cannon. A remote controlled turret operates the cannon and autopilot system allows the tank to be operated without a driver.</p>
+                <ul>
+                    <li>Price: £6.5m</li>
+                    <li>Top speed: 60mph</li>
+                    <li>Range: 420 miles</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    <div class="container-fluid fclass">
+    <div class="row table">
+        <div class="col">
+            Tank upgrade options
+        </div>
+        <div class="col">
+            Upgrade description
+        </div>
+        <div class="col">
+            Cost of upgrade
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Shield Protection System
+        </div>
+        <div class="col">
+            The shield protection system is the most advanced combat-proven anti-tank missile and rocket protection system. This system provides the best protection against air-launched guided missiles and advanced top attack anti-tank weapons.  
+        </div>
+        <div class="col">
+            £0.4m
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Thermal imaging
+        </div>
+        <div class="col">
+            Our advanced thermal imaging system can be retrospectively fitted across all our tanks. With a 360 degree rotating optical block allows operators to quickly scan and identify potential threats in close proximity.
+        </div>
+        <div class="col">
+            £0.5m
+        </div>
+    </div>
+        <div class="row">
+        <div class="col">
+            Hydropneumatic suspension
+        </div>
+        <div class="col">
+            Our hydropneumatic suspension offers a sensitive, dynamic and high-capacity suspension providing a superior ride quality on a variety of surfaces which provides the benefit of improved weapons targeting and visibility during operations.
+        </div>
+        <div class="col">
+            £0.2m
+        </div>
+    </div>
+    <div class = "f.class" id="config">
+        <h4 style="text-align: center; margin-top: 50px; text-decoration: underline">Tank Configurator</h4>
+        <div>
+            <select style ="margin-bottom: 10px" class="form-select order" aria-label="Disabled select example" id="tanktype" onchange="gettank()">
+                <option selected aria-disabled="true">Choose tank type</option>
+                <option value="T01">T01 Destroyer</option>
+                <option value="C23">C23 Laserquest</option>
+                <option value="R2T3">R2T3 Ranger</option>
+            </select>
+            <select style ="margin-bottom: 10px" class="form-select order" aria-label="Disabled select example" id="upgrade1" onchange="getupgrade()">
+                <option selected disabled>Upgrade option 1</option>
+                <option value="sps">Shield Protection System</option>
+                <option value="none">None</option>
+            </select>
+            <select style ="margin-bottom: 10px" class="form-select order" aria-label="Disabled select example" id="upgrade2" onchange="secupgrades()">
+                <option selected disabled>Upgrade option 2</option>
+                <option value="ti">Thermal Imaging</option>
+                <option value="none">None</option>
+              </select>
+            <select style ="margin-bottom: 10px" class="form-select order" aria-label="Disabled select example" id="upgrade3" onchange="finupgrade()">
+                <option selected disabled>Upgrade option 3</option>
+                <option value="hs">Hydropneumatic suspension</option>
+                <option value="none">None</option>
+              </select>
+            <select class="form-select order" aria-label="Default select example" id="camo" onchange="getcamo()">
+                <option selected disabled>Choose camouflage option</option>
+                <option value="none">None</option>
+                <option value="Camouflage">Camouflage</option>
+            </select>
+        </div>
+        <div class="cost">
+            <form>
+                <button type="button" class="btn btn-primary btn-lg" onclick=calculate()>Calculate Tank Cost</button>
+                <br>
+                <br>
+                <p class="calc">The cost of the tank is... <span id ="cost"></span></p><br>
+            </form>
+        </div>
+    </div>
+        <footer class="footer row note">
+         <div class="note">
+            <a href="">Contact us</a>
+            <a href="">News</a>
+            <a href="">FAQ</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Career</a>
+         </div>
+        </footer>
