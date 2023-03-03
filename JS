@@ -1,0 +1,67 @@
+const tank = {'T01':4500000,"C23":6500000,"R2T3":5400000,"Camouflage":200000,"sps":400000,"ti":500000,"hs":200000,"none":Number(0)}        
+        var arr1 = []
+        var arr2 = []
+        var arr3 = []
+        var arr4 = []
+        var arr5 = []
+
+        function gettank() {
+            var e = document.getElementById("tanktype");
+            var value = e.value;
+            if (arr1.includes(value)) {}
+            else   {arr1.length = 0;
+                arr1.push(value);
+                console.log(arr1)}
+            }
+
+        function getcamo() {
+            var c = document.getElementById("camo");
+            var cam = c.value;
+            if (arr2.includes(cam)) {}
+            else   {arr2.length = 0;
+                arr2.push(cam);
+                console.log(arr2)}
+            }
+
+        function getupgrade() {
+        var u = document.getElementById("upgrade1");
+        var ug = u.value;
+        if (arr3.includes(ug)) {}
+        else   {arr3.length = 0;
+                arr3.push(ug);
+                console.log(arr3)}
+            }
+
+        function secupgrades(){
+            var p = document.getElementById("upgrade2");
+            var pg = p.value;
+            if (arr4.includes(pg)) {}
+            else   {arr4.length = 0;
+                arr4.push(pg);
+                console.log(arr4)}
+            }
+
+        function finupgrade(){
+            var q = document.getElementById("upgrade3");
+            var qg = q.value;
+            if (arr5.includes(qg)) {}
+            else   {arr5.length = 0;
+            arr5.push(qg);
+            console.log(arr5)}
+            }
+           
+            function calculate() {
+            var a = tank[arr1]
+            var b = tank[arr2]
+            var c = tank[arr3]
+            var d = tank[arr4]
+            var e = tank[arr5]
+            var z = a + b + c + d
+            document.getElementById("cost").innerHTML = '£'+z
+            console.log(tank[arr1])
+            console.log(tank[arr2])
+            console.log(tank[arr3])
+            console.log(tank[arr4])
+            console.log(tank[arr5])
+            console.log(z)
+            }
